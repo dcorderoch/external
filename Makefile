@@ -4,12 +4,12 @@
 -I dir Add the directory dir to the list of directories to be searched for header files
 
 SDIR := src
-SOURCES := features.c variable.c
+SOURCES := external.c variable.c
 SOURCE := $(patsubst %,$(SDIR)/%,$(SOURCES))
 ODIR := obj
 _OBJ := $(SOURCES:.c=.o)
 OBJ := $(patsubst %,$(ODIR)/%,$(_OBJ))
-EXE := features
+EXE := external
 
 CC := gcc
 DFLAGS := -O3

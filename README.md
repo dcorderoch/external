@@ -1,4 +1,4 @@
-# features
+# external
 
 this repository shows how to use a variable or a function without using #include with the extern keyword
 
