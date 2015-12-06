@@ -15,12 +15,12 @@ int main()
 
     if(val)
     {
-        printf("cosa is not empty!\n");
-        printf("cosa is: %d\n", variable);
+        printf("variable is not empty!\n");
+        printf("variable is: %d\n", variable);
     }
     else
     {
-        printf("cosa is empty!\n");
+        printf("variable is empty!\n");
     }
 
     return 0;
