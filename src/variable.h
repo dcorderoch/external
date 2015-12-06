@@ -1,0 +1,3 @@
+int variable;
+
+void initVariables();
