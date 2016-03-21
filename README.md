@@ -1,6 +1,6 @@
 # external
 
-this repository shows how to use a variable or a function without using #include with the extern keyword
+this repository shows how to use a variable or a function in C/C++ without using #include with the extern keyword
 
 the makefile file compiles with warning and debugging flags
 
